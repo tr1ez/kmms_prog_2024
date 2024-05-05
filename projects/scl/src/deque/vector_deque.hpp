@@ -2,7 +2,7 @@
 
 namespace IBusko {
 	template<typename T>
-	class VectorStack {
+	class VectorDeque {
 		private:
 			T* arr;
 			std::size_t capacity = 10;
@@ -18,6 +18,9 @@ namespace IBusko {
 			void pop_front() noexcept;
 			void push_back(const T& value) noexcept;
 			void push_front(const T& value) noexcept;
+			
+			bool extend_capacity() noexcept;
+			
 			std::size_t get_size() const noexcept;
 			T back() const noexcept;
 			T front() const noexcept;
