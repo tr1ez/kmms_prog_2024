@@ -2,9 +2,8 @@ target_sources(${SCL_LIB}
 	PRIVATE
 		
 	PUBLIC
-		list_deque.hpp
-		static_array_deque.hpp
 		vector_deque.hpp
+		vector_deque.сpp
 )
 
 target_include_directories(${SCL_LIB} PUBLIC
