@@ -3,6 +3,7 @@ target_sources(${SCL_LIB}
 		
 	PUBLIC
 		doubly_linked_list.hpp
+		doubly_linked_list.сpp
 )
 
 target_include_directories(${SCL_LIB} PUBLIC

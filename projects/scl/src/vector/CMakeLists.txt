@@ -3,6 +3,7 @@ target_sources(${SCL_LIB}
 		
 	PUBLIC
 		vector.hpp
+		vector.сpp
 )
 
 target_include_directories(${SCL_LIB} PUBLIC
